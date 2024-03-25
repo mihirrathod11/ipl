@@ -1,0 +1,37 @@
+.container-fluid{
+    background-color: #081033;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.form-select{
+    /* padding: 10px; */
+    margin-top:40px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 20%;
+    display: inline-flex;
+}
+.container{
+    margin-top:40px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 20%;
+    display: inline-flex;
+
+}
+.point-table{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 2px;
+    border: 3px solid;
+    border-radius: 10px;
+}

@@ -1,3 +1,4 @@
+/* POINTS TABLE HEADING */
 .container-fluid{
     background-color: #081033;
     color: white;
@@ -7,7 +8,11 @@
     padding: 15px;
 
 }
-
+/* BACKGROUNG IMG OF TABLE */
+html,body{
+    background-image: url(https://www.iplt20.com/assets/images/bottom-section-bg.svg);
+}
+/* select button of men and season part */
 .form-select{
     /* padding: 10px; */
     margin-top:40px;
@@ -18,20 +23,15 @@
     width: 20%;
     display: inline-flex;
 }
+/* CONTAINER IS PARENT OF TABLE */
 .container{
-    margin-top:40px;
-    margin-left: 100px;
-    border-radius: 10px;
-    border: 2px solid;
-    width: 20%;
-    display: inline-flex;
-
-}
-.point-table{
     margin-top: 40px;
     margin-left: 100px;
     margin-right: 100px;
-    padding: 2px;
+    padding: 3px;
+}
+/* giving border to table */
+.container table{
     border: 3px solid;
-    border-radius: 10px;
+    border-radius: 20px;
 }

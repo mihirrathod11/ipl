@@ -3,22 +3,15 @@ html, body {
     padding: 0;
     height: 100%;
     background-color: #081e40;
-    ;
-}
-  
-/* .main{
-    width: 100%;
-    height: 100%;
-    background-color: lightblue;
-    /* position: fixed; */
-    /* top: 0;
-    left: 0;
-} */  
-#poster{
+    
+} 
+ /*ALL CAPTAINS POSTER IMG STYLING  */
+#poster{ 
     width: 100%;
     height: 700px;
     
 }
+/* SLOGAN BELOW THE POSTER "GAME ON STYLE UP" */
 .slogan{
     margin-top: 40px;
     margin-left: 30%;
@@ -28,53 +21,36 @@ html, body {
     font-style: normal;
     color: white;
 }
+/* IPL LOGO */
 .ipl-logo{
     width: 200px;
     height: 200px;
     margin-left: 45%; 
     margin-bottom: 60px;
 }
-
-/* #merch:hover{
-    background-color: black;
-    color: white; 
-    border: 0px;
-      
-}
-#merch:active{
-    background-color: black;
-    color: white;   
-} */
-/* input#merch{
-    font-family: "Roboto", sans-serif;
-    font-weight: 550;
-    font-style: normal;
-    border: 3px solid;
-    border-radius: 50px;
-    margin: 40px;
-    font-size: 20px;
-    padding: 5px 15px;
-    background-color: white;
-
-} */
+/* JERSEY IMG STYLING */
 .card img{
     width: 298px;
     height: 298px;
 }
+/* ALL JERSEY TITLE */
 .card h4{
-    font-weight: 600;
+    font-weight: 700;
     font-size: larger;
 }
+/* ALL JERSEY PRICE */
 .card p{
     font-weight: 600;
     font-size: large;
 }
+/* CARD (FOR JERSEY) STYLING  */
 .card{
     margin: 20px;
     background-color: #19398a;
     color: white;
     transition: box-shadow 0.3s ease;
 }
+/* when you hover on jersey card it will show glowing effect */
 .card:hover{
     box-shadow: 0 0 25px rgb(186, 206, 8 , 2);
     cursor: pointer;
